@@ -4,7 +4,9 @@ The eExam platform provides three distinct user roles: students, admins, and sur
 
 # Team
 The eExam project is developed by Saad Samih, Osama Reda, and Mariam Sakhi. Saad is responsible for the frontend web development with APIs, Osama is responsible for the frontend mobile development with APIs, and Mariam contributes to the backend development.
+
 Osama Reda   : https://github.com/oussamarida
+
 Mariam Sakhi :
 
 # Features
