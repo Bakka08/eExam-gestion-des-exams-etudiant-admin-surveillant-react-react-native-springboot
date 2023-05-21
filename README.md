@@ -11,7 +11,7 @@ Mariam Sakhi :
    
 # Class diagram   
 
-![alt text](./class.png)
+![alt text](./Class.png)
    
 # Features
 # Student Side
