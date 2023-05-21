@@ -71,7 +71,6 @@ react-pdf/renderer: A React library for rendering PDF documents in the browser.
 react-dates: A library for implementing date pickers and calendars in React.
 
 QR Code API: An API provided by qrserver.com for generating QR codes based on the provided data :
-
 "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data={code} ".
 
 # Video démonstration
