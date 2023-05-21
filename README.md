@@ -3,11 +3,12 @@ The eExam project is a web and mobile application designed to streamline the pro
 The eExam platform provides three distinct user roles: students, admins, and surveillants. Each role has specific functionalities and features tailored to their needs.
 
 # Team
-The eExam project is developed by Saad Samih, Osama Reda, and Mariam Sakhi. Saad is responsible for the frontend web development with APIs, Osama is responsible for the frontend mobile development with APIs, and Mariam contributes to the backend development.
+The eExam project is developed by Saad Samih, Osama Reda, and Mariam Sakhi. Saad is responsible for the frontend web development with APIs, Oussama is responsible for the frontend mobile development with APIs, and Mariam contributes to the backend development.
 
-Osama Reda   : https://github.com/oussamarida
 
-Mariam Sakhi :
+Oussama Reda   : https://github.com/oussamarida
+
+Mariam Sakhi : https://github.com/MariamSakhi
    
 # Class diagram   
 
@@ -71,11 +72,11 @@ react-pdf/renderer: A React library for rendering PDF documents in the browser.
 react-dates: A library for implementing date pickers and calendars in React.
 
 QR Code API: An API provided by qrserver.com for generating QR codes based on the provided data :
-"https://api.qrserver.com/v1/create-qr-code/?size=200x200&data={code} ".
+"https://api.qrserver.com/v1/create-qr-code/?size=200x200&data={code} "
 
 # Video démonstration
 
 # Web
-
+https://www.youtube.com/watch?v=KVh3zCMBG8c
 # Mobile
 https://www.youtube.com/watch?v=VKoljsHCcuw
