@@ -17,13 +17,13 @@ Mariam Sakhi :
 # Student Side
 Authentication: Students can log in to their accounts and securely access the system.
 
-**Password Management:** Students can update their passwords to maintain account security.
+Password Management: Students can update their passwords to maintain account security.
 
-**Exam Calendar:** Students can view their exams in a calendar format to easily track their schedule.
+Exam Calendar: Students can view their exams in a calendar format to easily track their schedule.
 
-**Convocation:** Students can check the convocation details.
+Convocation: Students can check the convocation details.
 
-**Convocation Download:** Students can download the convocation document for reference.
+Convocation Download: Students can download the convocation document for reference.
 
 # Admin Side
 Authentication: Admins can log in to their accounts and securely access the system.
