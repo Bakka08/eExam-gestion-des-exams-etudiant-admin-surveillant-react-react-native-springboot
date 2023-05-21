@@ -2,8 +2,10 @@
 The eExam project is a web and mobile application designed to streamline the process of conducting exams and assessments in educational institutions. The project utilizes React for the web interface and React Native for the mobile app, offering a seamless experience for both students and administrators.
 The eExam platform provides three distinct user roles: students, admins, and surveillants. Each role has specific functionalities and features tailored to their needs.
 
-#Team
-The eExam project is developed by Saad Samih, Osama Reda, and Mariam Sakhi. Saad is responsible for the frontend web development with APIs, Osama is responsible for the frontend mobile development with APIs, and Mariam contributes to the backend development
+# Team
+The eExam project is developed by Saad Samih, Osama Reda, and Mariam Sakhi. Saad is responsible for the frontend web development with APIs, Osama is responsible for the frontend mobile development with APIs, and Mariam contributes to the backend development.
+Osama Reda   : https://github.com/oussamarida
+Mariam Sakhi :
 
 # Features
 # Student Side
