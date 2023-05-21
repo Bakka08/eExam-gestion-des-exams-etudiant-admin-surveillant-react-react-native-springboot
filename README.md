@@ -8,7 +8,11 @@ The eExam project is developed by Saad Samih, Osama Reda, and Mariam Sakhi. Saad
 Osama Reda   : https://github.com/oussamarida
 
 Mariam Sakhi :
+   
+#Class diagram   
 
+![alt text](./git-images/class.png)
+   
 # Features
 # Student Side
 Authentication: Students can log in to their accounts and securely access the system.
