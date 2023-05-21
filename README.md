@@ -9,9 +9,9 @@ Osama Reda   : https://github.com/oussamarida
 
 Mariam Sakhi :
    
-#Class diagram   
+# Class diagram   
 
-![alt text](.class.png)
+![alt text](./class.png)
    
 # Features
 # Student Side
