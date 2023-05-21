@@ -10,7 +10,7 @@ Exam Management: Students can access their exams, view the exam schedule, and re
 Exam Attempt: Students can attempt exams online, submit their answers, and track their progress.
 Exam Results: Students can view their exam results, including scores and feedback provided by instructors.
 Profile Management: Students can manage their profiles, update personal information, and change their passwords.
-#Admin Side
+# Admin Side
 User Management: Admins can manage student accounts, including registration, authentication, and profile details.
 Exam Creation: Admins can create and manage exams, including setting the duration, assigning questions, and defining scoring criteria.
 Exam Schedule: Admins can create and update the exam schedule, assign exam venues, and manage conflicts.
