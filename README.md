@@ -78,3 +78,4 @@ QR Code API: An API provided by qrserver.com for generating QR codes based on th
 # Web
 
 # Mobile
+https://www.youtube.com/watch?v=VKoljsHCcuw
