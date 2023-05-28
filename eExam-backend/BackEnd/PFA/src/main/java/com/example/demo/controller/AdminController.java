@@ -23,7 +23,7 @@ public class AdminController {
 	private AdminRepository adminRepository;
 
 
-    @GetMapping("/{id}/")
+    @GetMapping("/{id}/") 
     public ResponseEntity<String> updateAdminPassword(
             @PathVariable("id") Long id,
             @RequestParam String password

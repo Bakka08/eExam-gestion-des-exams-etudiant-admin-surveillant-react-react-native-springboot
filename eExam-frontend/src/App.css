@@ -1,30 +1,35 @@
 
 body {
   /* fallback for old browsers */
-  background: #19A7CE;
+  background: #6a11cb;
 
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to right, rgb(10, 77, 104), rgb(8, 131, 149));
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: #FFFFFF
+  background: linear-gradient(to right, #654E92, #6C9BCF);
 }
 
 
 
-
 #navbar{
-background-color: #1976D2;
+    margin-left: 8%;
+  width: 85%;
+  margin-top:  30px;
+background-color: #654E92;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
+
 
 
 }
 #nav-middle-btn{
 margin-right: 10px;
 margin-left: 10px;
-background-color: #1976D2;
+background-color: #654E92;
 box-shadow: none;
+margin-top:  3%;
+
 
 
 
@@ -37,9 +42,10 @@ box-shadow: none;
 
 
 #upload-page{ 
-  background-color: #FFFFFF;
-width: inherit;
-height: 90vh;
+margin-left: 8%;
+background-color: #FFFFFF;
+width: 85%;
+height: 87vh;
 display: flex;
 justify-content: center;
 border-bottom-left-radius: 20px;
@@ -48,11 +54,11 @@ border-bottom-right-radius: 20px;
 }
 
 #file-form{
-  margin-top: 20px;
+      margin-top: 20px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      border: 8px dashed #2196F3;
+      border: 8px dashed #6C9BCF;
       height: 300px;
       width: inherit  ;
       cursor: pointer;
@@ -65,7 +71,7 @@ border-bottom-right-radius: 20px;
 #input-field-icon{
   display: flex;
   justify-content: center;
-  color: #2196F3;
+  color: #6C9BCF;
 font-size: 50px;
 
 
@@ -75,7 +81,7 @@ font-size: 50px;
 #input-filed-button{
 margin-left: 43%;
 margin-right: 43%;
-background-color: #2196F3;
+background-color: #6C9BCF;
 border-radius: 10px;
 border: none;
 height: 6vh ;
@@ -96,23 +102,26 @@ border-radius: 80%;
 }
 
 #admin-section{
-  height: 100vh;
+  height: 70vh;
   overflow: hidden;
-}
-
-
-#login-form{
-
-  color: #19A7CE;
-  justify-content:  center;
 
 }
+
+
+#login-form {
+  color: #FFFFFF;
+  justify-content: center;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  border-radius: 15px;
+}
+
 
 
 #form-text{
 align-items: center;
-text-align: center;
-color: #19A7CE;
+
+color: #6C9BCF;
 
 
 }
@@ -124,13 +133,16 @@ border-color: #19A7CE;
 
 
 #list-page{ 
-  background-color: #FFFFFF;
+background-color: #FFFFFF;
 width: inherit;
-height: 90vh;
+height: 87vh;
 display: flex;
 justify-content: center;
 border-bottom-left-radius: 20px;
 border-bottom-right-radius: 20px;
+margin-left: 8%;
+width: 85%;
+
 
 }
 
@@ -144,10 +156,77 @@ cursor: pointer;
 margin-top: 20px;
 font-size: 17px;
 border-color: none;
+height: 40px;
 
 }
 
 
 .highlighted {
   color: black;
+  text-align: center;
+}
+
+
+#login-section{
+margin-top: 15%;
+
+
+}
+
+#header {
+align-items:  center;
+
+
+
+}
+
+
+.wrapper {
+  text-align: center;
+}
+
+.form select{
+  width: 150px;}
+
+.form input {
+  width: 600px;
+
+  }
+  .form button {
+    width: 150px;
+    margin-left:  10px;
+    font-size: large;
+    
+    
+  }
+
+  #card{
+
+    background-color: #ACB1D6;
+  }
+
+  #loginbnt{
+    color: #ACB1D6;
+    background-color: #FFFFFF;
+  }
+
+
+#update-password{
+
+
+  margin-left: 8%;
+  width: 85%;
+  
+}
+
+
+
+
+#nav-icon-name{
+  font-style: italic;
+  font-weight: 200;
+  color: #FFFFFF;
+  text-align: center;
+
+
 }

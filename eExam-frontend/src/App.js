@@ -315,11 +315,13 @@ const [qrValue, setQrValue] = useState("");
     }
   
     return (
+      <div style={{ width: '92.31%' }}>
       <Calendar
         onPanelChange={onPanelChange}
         mode="month"
         dateCellRender={dateCellRender}
       />
+       </div>
     );
   };
   
@@ -355,7 +357,7 @@ const [qrValue, setQrValue] = useState("");
 
   
     return (
-      <div className="wrapper">
+      <div className="wrapper" id="update-password" > 
         <header>
           <h1>Update Password</h1>
           <p>Paste a password or enter text </p>
@@ -367,6 +369,7 @@ const [qrValue, setQrValue] = useState("");
             placeholder="Enter New password"
             value={inputValue}
             onChange={handleInputChange}
+            id="input"
           />
           <button onClick={handlepassword}>Update</button>
         </div>
@@ -404,8 +407,8 @@ const [qrValue, setQrValue] = useState("");
     
   
     return (
-      <div className="wrapper">
-        <header>
+      <div className="wrapper" id="update-password">
+        <header id="header"  >
           <h1>Update Password</h1>
           <p>Paste a password or enter text </p>
         </header>
@@ -500,18 +503,20 @@ const ListPage = () => {
               id="login-section"
               style={{ display: ShowLoginDiv ? "block" : "none" }}
             >
+              
               <MDBCard 
                 className=" text-white my-5 mx-auto"
                 style={{ borderRadius: "1rem", maxWidth: "400px" }}
+                id="card"
               >
                 <MDBCardBody className="p-5 d-flex flex-column align-items-center mx-auto w-100" id="login-form">
-                  <h2 className="fw-bold mb-2 text-uppercase" >Login</h2>
+                  <h2 className="fw-bold mb-2 text-uppercase"  >Login</h2>
                   <p  id="form_text" className="small mb-3 pb-lg-2" >
-                    Please enter your login and password!
+                    Please enter your login and password
                   </p>
                   <MDBInput
                     wrapperClass="mb-4 mx-5 w-100"
-                    labelClass="text-black"
+                    labelClass="text-white"
                     label="Email address"
                     id="formEmail"
                     type="email"
@@ -521,7 +526,7 @@ const ListPage = () => {
                   />
                   <MDBInput
                     wrapperClass="mb-4 mx-5 w-100"
-                    labelClass="text-black"
+                    labelClass="text-white"
                     label="Password"
                     id="formPassword"
                     type="password"
@@ -555,26 +560,29 @@ const ListPage = () => {
                   onClick={() => logout()}
                   id="nav-middle-btn"
                   type="button"
-                  class="btn  btn-floating"
+                  class="btn "
                 >
                   <i id="nav-icon" class="fas fa-power-off " ></i>
+                  <p id="nav-icon-name" >Log out</p>
                   
                 </button>
                 <button
                   onClick={() => handleBasicClick("list")}
                   id="nav-middle-btn"
                   type="button"
-                  class="btn  btn-floating"
+                  class="btn  "
                 > 
                   <i id="nav-icon" class="fas fa-list"></i>
+                  <p id="nav-icon-name" >Add student to exam </p>
                 </button>
                 <button
                   onClick={() => handleBasicClick("upload")}
                   id="nav-middle-btn"
                   type="button"
-                  class="btn  btn-floating"
+                  class="btn  "
                 >
                   <i id="nav-icon" class="fas fa-upload"></i>
+                  <p id="nav-icon-name" >Upload data</p>
                 </button>
               </div>
 
@@ -588,7 +596,7 @@ const ListPage = () => {
                 <img
                   src="/images/profile.png"
                   class="rounded-circle"
-                  height="45"
+                  height="60"
                   loading="lazy"
                   onClick={() => handleBasicClick("profile")}
                 />
@@ -649,26 +657,32 @@ const ListPage = () => {
                   onClick={() => logout()}
                   id="nav-middle-btn"
                   type="button"
-                  class="btn  btn-floating"
+                  class="btn  "
                 >
                   <i id="nav-icon" class="fas fa-power-off " ></i>
+                  <p id="nav-icon-name" >Log out</p>
                   
                 </button>
                 <button
                   onClick={() => handleBasicClick2("calendar")}
                   id="nav-middle-btn"
                   type="button"
-                  class="btn  btn-floating"
+                  class="btn  "
                 >
                   <i id="nav-icon" class="fas fa-calendar"></i>
+                  <p id="nav-icon-name" >Calendar</p>
+
                 </button>
                 <button
                   onClick={() => handleBasicClick2("convocation")}
+                  
                   id="nav-middle-btn"
                   type="button"
-                  class="btn  btn-floating"
+                  class="btn  "
                 >
                   <i id="nav-icon" class="fas fa-scroll"></i>
+                  <p id="nav-icon-name" >Convocation</p>
+
                 </button>
               </div>
 
@@ -682,7 +696,7 @@ const ListPage = () => {
                 <img
                   src="/images/profile.png"
                   class="rounded-circle"
-                  height="45"
+                  height="60"
                   loading="lazy"
                   onClick={() => handleBasicClick2("profile2")}
                 />
@@ -690,12 +704,12 @@ const ListPage = () => {
             </MDBContainer>
           </MDBNavbar>
           <MDBTabsContent>
-            <MDBTabsPane show={basicActive2 === "calendar"}>
+            <MDBTabsPane show={basicActive2 === "calendar"} style={{marginLeft : "8%"}}>
             <CalendarComponent/>
             </MDBTabsPane>
 
-            <MDBTabsPane show={basicActive2 === "convocation"}>
-              <div style={{ display: "flex", height: "100vh", width: "99vw" }}>
+            <MDBTabsPane show={basicActive2 === "convocation"} style={{marginLeft : "8%"}}>
+              <div style={{ display: "flex", height: "100vh", width: "84vw"}}>
                 <PDFViewer style={{ width: "100%" }}>
                   <Document>
                     <Page>

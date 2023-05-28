@@ -8,12 +8,11 @@
 }
 body{
   align-items: center;
-  background: #3498DB;
   justify-content: center;
 }
 ::selection{
   color: #fff;
-  background: #3498DB;
+  background: #6C9BCF;
 }
 .wrapper{
   justify-content: center;
@@ -64,7 +63,7 @@ header p{
   cursor: pointer;
   margin-top: 20px;
   font-size: 17px;
-  background: #3498DB;
+  background: #6C9BCF;
 }
 
 
